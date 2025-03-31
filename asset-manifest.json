@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/snehathottathan/WeddingApp/static/css/main.a54ee6f3.css",
-    "main.js": "/snehathottathan/WeddingApp/static/js/main.9ab7c111.js",
-    "static/js/511.b80a576f.chunk.js": "/snehathottathan/WeddingApp/static/js/511.b80a576f.chunk.js",
-    "static/media/coverbackground.jpg": "/snehathottathan/WeddingApp/static/media/coverbackground.51f044c7a0c3b06cfad0.jpg",
-    "static/media/wedcover.png": "/snehathottathan/WeddingApp/static/media/wedcover.38d2bf82525e6ae68fe8.png",
-    "static/media/thewed.png": "/snehathottathan/WeddingApp/static/media/thewed.47c75aff1908f1d54c92.png",
-    "static/media/loveimage.png": "/snehathottathan/WeddingApp/static/media/loveimage.fbe38d97d48c3b4c1415.png",
-    "static/media/logo.svg": "/snehathottathan/WeddingApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/snehathottathan/WeddingApp/index.html",
-    "main.a54ee6f3.css.map": "/snehathottathan/WeddingApp/static/css/main.a54ee6f3.css.map",
-    "main.9ab7c111.js.map": "/snehathottathan/WeddingApp/static/js/main.9ab7c111.js.map",
-    "511.b80a576f.chunk.js.map": "/snehathottathan/WeddingApp/static/js/511.b80a576f.chunk.js.map"
+    "main.css": "/WeddingApp/static/css/main.df689fb6.css",
+    "main.js": "/WeddingApp/static/js/main.5cfc269d.js",
+    "static/js/511.b80a576f.chunk.js": "/WeddingApp/static/js/511.b80a576f.chunk.js",
+    "static/media/coverbackground.jpg": "/WeddingApp/static/media/coverbackground.51f044c7a0c3b06cfad0.jpg",
+    "static/media/wedcover.png": "/WeddingApp/static/media/wedcover.38d2bf82525e6ae68fe8.png",
+    "static/media/thewed.png": "/WeddingApp/static/media/thewed.47c75aff1908f1d54c92.png",
+    "static/media/loveimage.png": "/WeddingApp/static/media/loveimage.fbe38d97d48c3b4c1415.png",
+    "static/media/logo.svg": "/WeddingApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/WeddingApp/index.html",
+    "main.df689fb6.css.map": "/WeddingApp/static/css/main.df689fb6.css.map",
+    "main.5cfc269d.js.map": "/WeddingApp/static/js/main.5cfc269d.js.map",
+    "511.b80a576f.chunk.js.map": "/WeddingApp/static/js/511.b80a576f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54ee6f3.css",
-    "static/js/main.9ab7c111.js"
+    "static/css/main.df689fb6.css",
+    "static/js/main.5cfc269d.js"
   ]
 }
