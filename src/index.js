@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* Add basename to handle GitHub Pages deployment from a subdirectory */}
-    <BrowserRouter basename="/weddingapp">
+    <BrowserRouter basename="/WeddingApp">
       <App />
     </BrowserRouter>
   </React.StrictMode>
