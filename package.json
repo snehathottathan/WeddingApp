@@ -22,7 +22,7 @@
     "static-eval": "^2.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/snehathottathan/WeddingApp",
+  "homepage": "https://snehathottathan.github.io/WeddingApp/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
