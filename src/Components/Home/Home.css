@@ -1,9 +1,28 @@
+.home-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .home-image {
-    /* position: absolute;
-   
-    right: 20%;
-    left: 26%; */
     margin: 0 auto;
-    padding: 25px 0px 25px 0px;
-    /* padding: 25px 338px 25px 338px; */
+    padding: 25px 0;
+    text-align: center;
+    max-width: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .home-image {
+        max-width: 75%;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-image {
+        max-width: 90%;
+        padding: 15px 0;
+    }
 }

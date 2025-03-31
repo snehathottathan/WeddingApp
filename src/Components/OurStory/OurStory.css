@@ -1,5 +1,88 @@
-.ourstory{
-    margin: 1rem auto 0px;
+/* Base Styles */
+.ourstory {
+    margin: 1rem auto;
     width: 50%;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* Story Title */
+.story-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6B7B28;
+    margin-bottom: 15px;
+}
+
+/* Story Text */
+.story-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Love Image */
+.loveimage {
+    width: 80%;  /* Default for desktop */
+    height: auto;
+    max-width: 600px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) { /* Large Screens */
+    .ourstory {
+        width: 60%;
+    }
+    .loveimage {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1024px) { /* Tablet */
+    .ourstory {
+        width: 70%;
+        padding: 15px;
+    }
+    .story-title {
+        font-size: 22px;
+    }
+    .loveimage {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .ourstory {
+        width: 90%;
+        padding: 10px;
+    }
+    .story-title {
+        font-size: 20px;
+    }
+    .story-text {
+        font-size: 14px;
+    }
+    .loveimage {
+        width: 100%; /* Full width for small screens */
+        max-width: 450px; /* Limit size for readability */
+    }
+}
+
+@media (max-width: 480px) { /* Very Small Devices */
+    .story-title {
+        font-size: 18px;
+    }
+    .story-text {
+        font-size: 13px;
+    }
+    .loveimage {
+        width: 95%;
+        max-width: 400px;
+    }
+}

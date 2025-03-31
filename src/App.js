@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
 import HeaderPart from './Components/HeaderPart/HeaderPart';
 import BottomPart from './Components/BottomPart/BottomPart';
+import UploadPhotos from './Components/savethedate/Photoupload'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ourstory" element={<OurStory />} />
+          <Route path="/savethedate" element={<UploadPhotos/>} />
 
         </Routes>
 

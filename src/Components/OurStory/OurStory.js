@@ -1,18 +1,20 @@
-import React from 'react'
-import './OurStory.css'
-import LoveImage from './../../assets/images/loveimage.png'
+import React from 'react';
+import { useMediaQuery } from 'react-responsive';
+import './OurStory.css';
+import LoveImage from './../../assets/images/loveimage.png';
+
 export default function OurStory() {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
+
   return (
-    <div className='ourstory'>
-      <p>THE ACCIDENTAL LOVE STORY: FROM PLAYFUL LIE TO FOREVER LOVE</p>
-      <img className='loveimage' src={LoveImage}></img>
-      <p>What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-        Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
+    <div className={`ourstory ${isMobile ? 'mobile' : isTablet ? 'tablet' : 'desktop'}`}>
+      <p className="story-title">THE ACCIDENTAL LOVE STORY: FROM PLAYFUL LIE TO FOREVER LOVE</p>
+      <img className="loveimage" src={LoveImage} alt="Love Story" />
+      <p className="story-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's 
+        standard dummy text ever since the 1500s...
       </p>
     </div>
-  )
+  );
 }
