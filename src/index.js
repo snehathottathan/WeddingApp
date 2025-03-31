@@ -8,8 +8,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <App />
+    {/* Add basename to handle GitHub Pages deployment from a subdirectory */}
+    <BrowserRouter basename="/weddingapp">
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
