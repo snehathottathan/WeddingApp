@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/weddingapp/static/css/main.3187d2e4.css",
+    "main.js": "/weddingapp/static/js/main.357c775b.js",
+    "static/js/511.b80a576f.chunk.js": "/weddingapp/static/js/511.b80a576f.chunk.js",
+    "static/media/coverbackground.jpg": "/weddingapp/static/media/coverbackground.51f044c7a0c3b06cfad0.jpg",
+    "static/media/wedcover.png": "/weddingapp/static/media/wedcover.38d2bf82525e6ae68fe8.png",
+    "static/media/thewed.png": "/weddingapp/static/media/thewed.47c75aff1908f1d54c92.png",
+    "static/media/loveimage.png": "/weddingapp/static/media/loveimage.fbe38d97d48c3b4c1415.png",
+    "static/media/logo.svg": "/weddingapp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/weddingapp/index.html",
+    "main.3187d2e4.css.map": "/weddingapp/static/css/main.3187d2e4.css.map",
+    "main.357c775b.js.map": "/weddingapp/static/js/main.357c775b.js.map",
+    "511.b80a576f.chunk.js.map": "/weddingapp/static/js/511.b80a576f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3187d2e4.css",
+    "static/js/main.357c775b.js"
+  ]
+}
