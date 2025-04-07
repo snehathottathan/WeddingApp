@@ -23,6 +23,7 @@ function App() {
       {/* <div className="dynamic-content"> */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/WeddingApp" element={<Home />} />
           <Route path="/ourstory" element={<OurStory />} />
           <Route path="/savethedate" element={<UploadPhotos/>} />
 
